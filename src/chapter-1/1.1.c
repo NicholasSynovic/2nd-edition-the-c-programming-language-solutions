@@ -1,8 +1,10 @@
-/* Run the "hello, world" program. Experiment with leaving out parts of the program to see what error messages you get */
+/* Run the "hello, world" program. Experiment with leaving out parts of the
+ * program to see what error messages you get */
 
 #include <stdio.h>
 
-int main()  {
+int main()
+{
     printf("hello, world\n");
     printf("hello, world");
 

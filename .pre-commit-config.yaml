@@ -47,6 +47,6 @@ repos:
     hooks:
       - id: astyle
         name: astyle
-        entry: astyle
+        entry: astyle --style=kr --indent=spaces=4 --max-code-length=80 -n
         language: system
         files: '\.c$'
