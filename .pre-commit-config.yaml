@@ -24,19 +24,19 @@ repos:
     rev: 5.13.2
     hooks:
       - id: isort
-        files: '\*.py$'
+        files: '\.py$'
 
   - repo: https://github.com/psf/black
     rev: 23.12.1
     hooks:
       - id: black
-        files: '\*.py$'
+        files: '\.py$'
 
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.17
     hooks:
     - id: mdformat
-      files: '\*.md$'
+      files: '\.md$'
       additional_dependencies:
       - mdformat-black
       - mdformat-gfm
@@ -49,4 +49,4 @@ repos:
         name: astyle
         entry: astyle
         language: system
-        files: '\*.c$'
+        files: '\.c$'
